@@ -1,0 +1,8 @@
+C:\Users\EliAv\Documents\GitHub\niceFilmsBetterHypixelPack\NFBHP Updater\bin\Release\NFBHP Updater.exe.config
+C:\Users\EliAv\Documents\GitHub\niceFilmsBetterHypixelPack\NFBHP Updater\bin\Release\NFBHP Updater.exe
+C:\Users\EliAv\Documents\GitHub\niceFilmsBetterHypixelPack\NFBHP Updater\bin\Release\NFBHP Updater.pdb
+C:\Users\EliAv\Documents\GitHub\niceFilmsBetterHypixelPack\NFBHP Updater\obj\Release\NFBHP Updater.csproj.AssemblyReference.cache
+C:\Users\EliAv\Documents\GitHub\niceFilmsBetterHypixelPack\NFBHP Updater\obj\Release\NFBHP Updater.csproj.SuggestedBindingRedirects.cache
+C:\Users\EliAv\Documents\GitHub\niceFilmsBetterHypixelPack\NFBHP Updater\obj\Release\NFBHP Updater.csproj.CoreCompileInputs.cache
+C:\Users\EliAv\Documents\GitHub\niceFilmsBetterHypixelPack\NFBHP Updater\obj\Release\NFBHP Updater.exe
+C:\Users\EliAv\Documents\GitHub\niceFilmsBetterHypixelPack\NFBHP Updater\obj\Release\NFBHP Updater.pdb

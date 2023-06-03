@@ -16,7 +16,7 @@ class Program
 		Console.ReadKey();
 
 		// Specify the URL of the remote zip file
-		string remoteFileUrl = "https://example.com/path/to/your/resourcepack.zip";
+		string remoteFileUrl = "https://github.com/niceEli/niceFilmsBetterHypixelPack/releases/latest/download/NFBHP.Latest.zip";
 
 		// Specify the path to the Minecraft resource packs folder
 		string resourcePacksFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".minecraft", "resourcepacks");
@@ -57,7 +57,7 @@ class Program
 			await webClient.DownloadFileTaskAsync(new Uri(remoteFileUrl), tempFilePath);
 
 			// Move the zip file to the resource packs folder
-			string destinationPath = Path.Combine(resourcePacksFolder, "resourcepack.zip");
+			string destinationPath = Path.Combine(resourcePacksFolder, Path.GetFileName(remoteFileUrl));
 			File.Move(tempFilePath, destinationPath);
 		}
 	}
