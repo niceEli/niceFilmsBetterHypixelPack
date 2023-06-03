@@ -12,7 +12,7 @@ class Program
 		Console.WriteLine("■ Press any key to download the resource pack. ■");
 		Console.WriteLine("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
 		Console.WriteLine();
-		Console.WriteLine("                     V1.0.0");
+		Console.WriteLine("                     V1.1.0");
 		Console.ReadKey();
 
 		// Specify the URL of the remote zip file
