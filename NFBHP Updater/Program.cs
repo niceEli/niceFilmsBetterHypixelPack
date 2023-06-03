@@ -58,7 +58,17 @@ class Program
 
 			// Move the zip file to the resource packs folder
 			string destinationPath = Path.Combine(resourcePacksFolder, Path.GetFileName(remoteFileUrl));
-			File.Move(tempFilePath, destinationPath);
+
+			if (File.Exists(destinationPath))
+			{
+				Console.WriteLine("Updating the resource pack...");
+				File.Replace(tempFilePath, destinationPath, null);
+			}
+			else
+			{
+				Console.WriteLine("Downloading the resource pack...");
+				File.Move(tempFilePath, destinationPath);
+			}
 		}
 	}
 }
